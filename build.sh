@@ -1,1 +1,1 @@
-python3 src/main.py "https://github.com/xdd-enjoyer/xdd-enjoyer.github.io"
+python3 src/main.py "https://github.com/xdd-enjoyer/static_site"
