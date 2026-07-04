@@ -1,13 +1,17 @@
 import os
 import shutil
+import sys
 
 from copystatic import copy_files_recursive
 from gencontent import *
 
 dir_path_static = "./static"
-dir_path_public = "./public"
+dir_path_public = "./docs"
 dir_path_content = "./content"
 template_path = "./template.html"
+basepath = sys.argv
+if not sys.argv:
+    basepath = "/"
 
 
 def main() -> None:
