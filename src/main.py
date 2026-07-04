@@ -27,6 +27,6 @@ def main() -> None:
     generate_pages_recursively(
         dir_path_content, template_path, dir_path_public, basepath
         )
-
+#hj
 
 main()
